@@ -23,6 +23,15 @@
 }
   
 
+.cardHab {
+
+    margin-bottom: 2%;
+    border-radius: 4px;
+   border: 7px double rgb(101, 153, 155);
+    color: #2d3c3f !important;
+    text-align: center;
+    height: 100%;
+}
 
  
 
@@ -74,13 +83,14 @@
 
 
 
-.hab{
+.habilidades h1{
     font-family: 'Bree Serif', serif !important;
-    font-size: 57px;
+    font-size: 50px;
     margin-bottom: 20px;
 
 
 }
+
 
 
 
@@ -546,3 +556,8 @@ footer p a:hover {
     color: #9f26aa;
     text-decoration: none;
 }
+
+
+
+
+
