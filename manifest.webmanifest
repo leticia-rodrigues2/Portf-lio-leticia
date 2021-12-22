@@ -1,0 +1,41 @@
+{
+    "name": "Meu Aplicativo",
+    "short_name": "Meu App",
+    "icons": [
+      {
+        "src": "img/logoB.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logoB.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logoB.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logoB.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "img/logoB.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logoB.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#199332"
+  }
