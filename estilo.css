@@ -54,6 +54,12 @@
  
 .habilidades, img {
     margin-top: 2px;
+    transform: scale(0.8);
+    
+    
+}
+.habilidades, img:hover{
+    transform: scale(1);
     
 }
 
