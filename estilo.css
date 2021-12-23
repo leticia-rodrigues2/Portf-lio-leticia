@@ -52,10 +52,10 @@
       left: 4%;
   }
  
-.habilidades, img {
+.habilidades img {
     margin-top: 2px;
     transform: scale(0.8);
-    
+    cursor: pointer;
     
 }
 .habilidades, img:hover{
