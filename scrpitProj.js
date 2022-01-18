@@ -8,7 +8,7 @@ var speed = 170;
 
 function typeWriter() {
   if (i <= txt.length) {
-    document.getElementById("text").innerHTML = txt.slice(0, i + 1);
+    document.getElementById("text").innerHTML = txt.slice(0, i + 20);
     i++;
     setTimeout(typeWriter, speed);
   }

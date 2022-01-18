@@ -65,9 +65,6 @@ ul.topnav li.right {
   content: "";
   display: inline-block;
   background-color: rgba(12, 1, 9, 0.932);
-  margin-left: 2px;
-  height: 25px;
-  width: 4px;
   animation: cursor 0.1s;
 }
 
@@ -100,7 +97,7 @@ body {
 }
 
 .leading {
-  height: 240px;
+  height: 280px;
   margin-bottom: 30px;
   padding: 30px;
   color: white;
@@ -133,6 +130,8 @@ body {
 .cards {
   max-width: 960px;
   margin: 0 auto 30px;
+
+  margin-top: 65px;
 }
 
 article {
