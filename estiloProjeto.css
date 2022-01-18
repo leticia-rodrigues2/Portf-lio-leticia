@@ -43,6 +43,50 @@ ul.topnav li.right {
   }
 }
 
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+* {
+  margin: 0;
+}
+
+.typewriter {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 18px;
+  width: 80%;
+  color: rgba(233, 206, 225, 0.835);
+}
+.typewriter h1 {
+  overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: normal;
+}
+.typewriter h1:after {
+  content: "";
+  display: inline-block;
+  background-color: rgba(12, 1, 9, 0.932);
+  margin-left: 2px;
+  height: 25px;
+  width: 4px;
+  animation: cursor 0.4s;
+}
+
+/* The typewriter cursor effect */
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Grid styles -------------------------------------------------*/
 .cards {
   display: grid;
